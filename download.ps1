@@ -4,7 +4,7 @@ Param([String]$id, [Int]$version)
 $platforms = "ANDROID", "IOS"
 # Format validation of a theme ID
 function ValidateThemeIdFormat([String]$id) {
-  return ($id.Length -ge 6) -and ($id -match "^[-a-z0-9]+$")
+  return ($id.Length -ge 6) -and ($id -cmatch "^[-a-z0-9]+$")
 }
 # Checks if it is able to get the URI content
 function CheckHttpResponseStatus([String]$uri) {
