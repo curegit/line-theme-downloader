@@ -3,6 +3,8 @@
 Param([String]$id, [Int]$version)
 # Definition of platforms to download
 $platforms = "ANDROID", "IOS"
+# Don't show progress
+$ProgressPreference = "SilentlyContinue"
 # Format validation of a theme ID
 function ValidateThemeIdFormat([String]$id) {
   return ($id.Length -ge 6) -and ($id -cmatch "^[-a-z0-9]+$")
