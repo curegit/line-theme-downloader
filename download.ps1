@@ -67,12 +67,12 @@ if (-not (ValidateThemeIdFormat $id)) {
 # Check the specified theme exists
 if ($version -lt 1) {
   if (-not (CheckThemeExistence $id)) {
-    throw "No such theme package (network error possibly)"
+    throw "No such theme package (possibly network error)"
   }
   Write-Output ("Verified: {0}" -f $id)
 } else {
   if (-not (CheckThemeExistence $id $version)) {
-    throw "No such theme package or specified version (network error possibly)"
+    throw "No such theme package or specified version (possibly network error)"
   }
   Write-Output ("Verified: {0} (version {1})" -f $id, $version)
 }

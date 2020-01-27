@@ -66,13 +66,13 @@ fi
 # Check the specified theme exists
 if [ "$version" -lt 1 ]; then
   if ! checkThemeExistence "$id"; then
-    echo "No such theme package (network error possibly)" 1>&2
+    echo "No such theme package (possibly network error)" 1>&2
     exit 1
   fi
   echo "Verified: $id"
 else
   if ! checkThemeExistence "$id" "$version"; then
-    echo "No such theme package or specified version (network error possibly)" 1>&2
+    echo "No such theme package or specified version (possibly network error)" 1>&2
     exit 1
   fi
   echo "Verified: $id (version $version)"
