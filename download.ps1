@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 # Command-line arguments
 Param([String]$id, [Int]$version)
 # Definition of platforms to download
