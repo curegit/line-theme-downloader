@@ -108,6 +108,7 @@ elif [ "$version" = 0 ]; then
   done
 else
   # Download the specified version
+  echo "Downloading: $id (version $version)"
   for platform in $platforms; do
     dest="$(downloadThemeZip "$id" "$version" "$platform")"
     echo "Saved: $dest ($platform)"
