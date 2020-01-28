@@ -36,7 +36,7 @@ See the following table for synopses of the parameter values.
 |    0    | Downloads the latest version. (Default) |
 |    n    | Downloads the specified version.        |
 
-The latest version numbers are being shown inconspicuously in pages.
+The latest version numbers are being shown inconspicuously in theme content pages.
 Versioning starts with v1.00 and increases by 0.01.
 To convert them to script parameter format, remove the decimal point and subtract 99 from them.
 Notice that displayed version would be 1 less than version used in script (v1.00 is mapped to 1).
