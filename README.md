@@ -12,4 +12,4 @@ Small scripts to download theme files from LINE Store
 ### PowerShell
 
 - PowerShell 3.0+
-- PowerShell 6.0+ (Only in case of executing `ps1` directly in UNIX)
+- PowerShell 6.0+ (Required only in case of executing the script directly in UNIX)
