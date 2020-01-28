@@ -47,12 +47,13 @@ function downloadThemeZip() {
 # Show help
 if [ $# = 0 ]; then
   echo "* Usage *"
-  echo "$0/HELP"
+  echo "$0 [ID [VERSION]]"
+  echo
   exit 0
 fi
 # Verify the command-line arguments
 if [[ ! "$version" =~ ^-?(0|[1-9][0-9]*)$ ]]; then
-  echo "Integer expected for !!! package version parameter" 1>&2
+  echo "Package version must be an integer" 1>&2
   exit 1
 fi
 if [ "$version" -lt -1 ]; then
