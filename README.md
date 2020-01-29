@@ -20,6 +20,9 @@ Small scripts to download theme files from LINE Store
 ./download.(sh|ps1) PACKAGEID [VERSION]
 ```
 
+These scripts download theme files in zip by HTTP GET.
+The zip files are saved in the current directory.
+
 `PACKAGEID` is always required.
 It specifies which theme to download.
 The ID format is like **c6c01199-8d9c-4a7b-860f-8718e40d6bfc**.
