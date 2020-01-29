@@ -30,7 +30,7 @@ It specifies which version(s) to download.
 It must be -1, 0, or a positive integer.
 See the following table for synopses of the parameter values.
 
-| VERSION |                behaviour                |
+| VERSION |                behavior                 |
 |:-------:|-----------------------------------------|
 |   -1    | Downloads all the versions.             |
 |    0    | Downloads the latest version. (Default) |
