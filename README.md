@@ -33,23 +33,23 @@ It specifies which version(s) to download.
 It must be -1, 0, or a positive integer.
 See the following table for synopses of the parameter values.
 
-| VERSION |                behavior                 |
-|:-------:|-----------------------------------------|
-|   -1    | Downloads all the versions.             |
-|    0    | Downloads the latest version. (Default) |
-|    n    | Downloads the specified version.        |
+| VERSION |                behavior                |
+|:-------:|----------------------------------------|
+|   -1    | Download all the versions.             |
+|    0    | Download the latest version. (Default) |
+|    n    | Download the specified version.        |
 
 The latest version numbers are being shown inconspicuously in theme content pages.
 Versioning starts with v1.00 and increases by 0.01.
 To convert them to script parameter format, remove the decimal point and subtract 99 from them.
-Notice that displayed version would be 1 less than version used in script (v1.00 is mapped to 1).
-For example, in order to download v1.41, you have to pass 42.
+Notice that the displayed version would be 1 less than the version used in script (v1.00 is mapped to 1).
+For example, to download v1.41, you have to pass 42.
 For another example, v1.99 is 100, and v2.00 is 101.
 
 ## Notes
 
-- The requirement of PowerShell 6.0 or newer in order to run the script directly in UNIX shells is because of shebang problem.
-- Theme resources are located in public web directories, so anyone can get them easily and legally (private use only).
+- The requirement of PowerShell 6.0 or newer to run the script directly in UNIX shells is because of the shebang problem.
+- Theme files are located in public web directories, so anyone can get them easily and legally (private use only).
 
 ## Related
 
