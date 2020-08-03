@@ -8,6 +8,7 @@ Small scripts to download theme files from LINE Store
 
 - Bash 3.0+
 - cURL
+- `/dev/null` device
 
 ### PowerShell
 
