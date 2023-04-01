@@ -1,4 +1,5 @@
-#!/bin/bash -u
+#!/bin/bash
+set -u
 # Command-line arguments
 readonly id=${1:-}
 readonly version=${2:-0}
