@@ -39,11 +39,11 @@ See the following table for synopses of the parameter values.
 |    0    | Download the latest version. (Default) |
 |    n    | Download the specified version.        |
 
-The latest version numbers are being shown inconspicuously in theme content pages.
+The latest version numbers are being displayed inconspicuously in theme content pages.
 Versioning starts with v1.00 and increases by 0.01.
-To convert them to script parameter format, remove the decimal point and subtract 99.
-Notice that the displayed version would be 1 less than the version used in script (v1.00 is mapped to 1).
-For example, to download v1.41, you have to pass 42.
+To convert them to script parameter format, remove the integer portion and decimal point, and subtract 99.
+Note that the displayed version would be 1 less than the version used in script (v1.00 is mapped to 1).
+For example, to download v1.41, you must pass 42.
 For another example, v1.99 is 100, and v2.00 is 101.
 
 ## Notes
